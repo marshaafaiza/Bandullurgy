@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8e4dc;
+    color: #333;
+}
+
+.c-home-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Menyesuaikan tinggi dengan tinggi layar */
+}
+
+.c-home-hero__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Membuat video memenuhi seluruh area */
+    z-index: -1; /* Menempatkan video di belakang konten */
+}
+
+.c-intro-home {
+    position: absolute;
+    top: 50%; /* Menempatkan teks di tengah secara vertikal */
+    left: 50%; /* Menempatkan teks di tengah secara horizontal */
+    transform: translate(-50%, -50%); /* Mengatur posisi teks tepat di tengah */
+    color: white; /* Teks berwarna putih agar kontras dengan latar belakang gelap */
+    text-align: center;
+    z-index: 1; /* Menempatkan teks di atas video */
+}
+
+.c-intro-home__title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.c-intro-home__copy {
+    font-size: 1.2em;
+}
+
+.u-blue-gradient {
+    background: linear-gradient(45deg, #4d9bbf, #003366);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+video {
+            width: 100%; /* Membuat video responsif */
+            border-radius: 10px;
+        }

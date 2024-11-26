@@ -1,0 +1,41 @@
+body {
+padding:0;margin:0 auto;
+    background:#bababa;
+	min-width: 300px;
+}
+#head{
+    display: block;
+    background: #607D8B;
+    width: 100%;
+    position:relative;
+    top:-37px;
+    box-shadow: 0px 3px 3px #9a9a9a;
+}
+#logo{
+position: relative;
+    top:0px;
+}
+
+legend{
+    position:relative;
+    top:-37px;
+    color:#0baac0;
+    font-size: 18px;
+    font-family:sans-serif;
+    
+}
+#box{
+    position:relative;
+    top:-37px;
+	width:98%;
+	max-width:414px;
+	height:180px;	
+	background-color:#0bb3c7;
+	border-radius:5px;
+	padding:40px 0 0 0;
+	margin:0px auto;
+    box-shadow: 2px 3px 3px #9a9a9a;
+
+
+}
+
